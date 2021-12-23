@@ -20,7 +20,8 @@ public class Data {
     }
 
     String dataFormatada () {
-        return String.format("%d/%d/%d", dia, mes, ano);
+        final String formato = "%d/%d/%d"; // variável local visível apenas dentro do método
+        return String.format(formato, dia, mes, ano);
     }
 
     void imprimirDataFormatada () {
