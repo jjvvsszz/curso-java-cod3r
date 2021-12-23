@@ -6,6 +6,18 @@ public class Data {
     int mes;
     int ano;
 
+    /*
+    variáveis de instância são inicializadas por padrão (constantes não estão incluídas):
+    byte, short, int, long -> 0
+    float, double -> 0.0
+    boolean -> false
+    char -> '\u0000'
+    Objeto -> null
+
+    variáveis definidas em métodos não são inicializadas por padrão,
+    portanto, não pode ser utilizada antes de ser inicializada manualmente
+     */
+
     Data () {
 //        dia = 1;
 //        mes = 1;
